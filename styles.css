@@ -411,3 +411,34 @@ select {
     border: none;
     border-radius: 8px;
 }
+
+/* meet-our-team styles */
+.meet-our-team-title {
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.meet-our-team-description {
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team-image-container {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 18px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+.team-image-container img {
+    width: 400px;
+    height: 300px;
+    border-radius: 18px;
+}
