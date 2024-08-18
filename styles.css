@@ -268,58 +268,146 @@ header {
 }
 
 /* trainings and exercise styles */
-.exercise-title{
+.exercise-title {
     color: white;
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
-.exercise-description{
+.exercise-description {
     color: rgba(255, 255, 255, 0.6);
     font-size: 1rem;
     line-height: 130%;
     margin-bottom: 30px;
 }
 
-.exercise-image-container{
+.exercise-image-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 #exercise1 {
-    width: 29%;
+    width: 30%;
     height: 200px;
-    margin-bottom: 12px;
 }
 
 #exercise2 {
     width: 40%;
     height: 200px;
-    margin-bottom: 12px;
 }
 
 #exercise3 {
-    width: 29%;
+    width: 30%;
     height: 200px;
-    margin-bottom: 12px;
 }
 
 #exercise4 {
     width: 35%;
     height: 200px;
-    margin-bottom: 12px;
 }
 
 #exercise5 {
-    width: 28%;
+    width: 30%;
     height: 200px;
-    margin-bottom: 12px;
 }
 
 #exercise6 {
     width: 35%;
     height: 200px;
-    margin-bottom: 12px;
+}
+
+/* BMI Calculator style */
+.bmi {
+    max-width: 50%;
+    padding: 0px;
+}
+
+.bmi-title {
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.bmi-description {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+
+.bmi-calculator-container {
+    max-width: 100%;
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bmi-chart {
+    width: 20%;
+}
+
+.bmi-chart-title {
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.bmi-chart-table {
+    width: 100%;
+    color: rgba(255, 255, 255, 0.7);
+    border-collapse: collapse;
+
+}
+
+th,
+td {
+    font-size: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    color: white;
+}
+
+.bmi-calculator-title {
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.bmi-calculator-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.inputs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+
+.inputs select#activity-factor {
+    grid-column: span 2;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+input,
+select {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
 }
