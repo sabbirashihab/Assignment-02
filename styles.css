@@ -229,6 +229,7 @@ header {
 
 /* run extra mile section styles */
 .run-extra-mile {
+    max-width: 65%;
     background-color: rgb(35, 35, 35);
     border-radius: 18px;
     padding: 3rem;
@@ -264,4 +265,61 @@ header {
     max-width: 500px;
     max-height: 400px;
     border-radius: 18px;
+}
+
+/* trainings and exercise styles */
+.exercise-title{
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.exercise-description{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    line-height: 130%;
+    margin-bottom: 30px;
+}
+
+.exercise-image-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#exercise1 {
+    width: 29%;
+    height: 200px;
+    margin-bottom: 12px;
+}
+
+#exercise2 {
+    width: 40%;
+    height: 200px;
+    margin-bottom: 12px;
+}
+
+#exercise3 {
+    width: 29%;
+    height: 200px;
+    margin-bottom: 12px;
+}
+
+#exercise4 {
+    width: 35%;
+    height: 200px;
+    margin-bottom: 12px;
+}
+
+#exercise5 {
+    width: 28%;
+    height: 200px;
+    margin-bottom: 12px;
+}
+
+#exercise6 {
+    width: 35%;
+    height: 200px;
+    margin-bottom: 12px;
 }
