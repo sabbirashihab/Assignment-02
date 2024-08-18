@@ -33,6 +33,11 @@ section {
     padding: 4rem 0;
 }
 
+.align-left {
+    text-align: left;
+    /* justify-content: left; */
+}
+
 /* header styles */
 header {
     background-color: rgba(17, 17, 17, 0.95);
@@ -196,7 +201,7 @@ header {
 .habits-container {
     padding: 20px;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     text-align: center;
     align-items: center;
 }
@@ -220,4 +225,43 @@ header {
 .habit-text {
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.6);
+}
+
+/* run extra mile section styles */
+.run-extra-mile {
+    background-color: rgb(35, 35, 35);
+    border-radius: 18px;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.run-extra-mile-content {
+    max-width: 400px;
+    padding-left: 3rem;
+
+}
+
+.run-extra-mile-content-title {
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 20px;
+
+}
+
+.run-extra-mile-content-description {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    line-height: 130%;
+    margin-bottom: 30px;
+
+}
+
+.run-extra-mile-image img {
+    max-width: 500px;
+    max-height: 400px;
+    border-radius: 18px;
 }
