@@ -19,7 +19,7 @@
 .satisfy-regular {
     font-family: "Satisfy", cursive;
     font-weight: 400;
-    font-style: normal;
+    font-style: italic;
 }
 
 /* shared styles */
@@ -41,7 +41,7 @@ header {
 .nav-bar {
     max-width: 70%;
     margin: 0 auto;
-    padding: 2rem 0;
+    padding: 1rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,7 +49,7 @@ header {
 
 .nav-title {
     color: #E6533C;
-    font-size: 2.25rem;
+    font-size: 3rem;
     font-weight: bolder;
     font-style: italic;
 }
@@ -78,3 +78,102 @@ header {
     color: white;
     font-size: 1rem;
 }
+
+.hero {
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 35%;
+    align-items: center;
+}
+
+.hero-content-title {
+    color: white;
+    font-size: 4rem;
+    font-weight: bolder;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.hero-content-text {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+}
+
+.hero-content-buttons {
+    display: flex;
+    justify-content: left;
+    gap: 1.5rem;
+}
+
+.shared-buttons {
+    background-color: #E6533C;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding: 1rem 2.5rem;
+}
+
+#download-app-button {
+    background-color: rgb(30, 30, 30);
+    border: 0.5px solid darkgray;
+}
+
+.hero-image {
+    max-width: 40%;
+    display: flex;    
+}
+
+.upper-badge,
+.lower-badge {
+    background-color: rgba(255, 255, 255, 0.2);
+    max-width: 150px;
+    max-height: 50px;
+    padding: 1rem;
+    border-radius: 12px;
+}
+
+.circle {
+    background-color: #E6533C;
+    color: #E6533C;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-right: .5rem;
+}
+
+.upper-badge {
+    margin-top: 8rem;
+    margin-left: -8rem;
+
+}
+
+.lower-badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -3rem;
+    margin-top: 24rem;
+}
+
+.highlighted-number {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.small-text {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 1rem;
+}
+
