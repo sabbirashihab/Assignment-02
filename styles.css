@@ -67,6 +67,10 @@ header {
     gap: 1rem;
 }
 
+.hamburger-menu {
+    display: none;
+}
+
 .nav-menu-buttons {
     background-color: rgb(30, 30, 30);
     border: none;
@@ -455,7 +459,7 @@ footer {
     margin: 0 auto;
     padding: 50px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     border-bottom: 2px solid darkgrey;
 }
 
@@ -486,7 +490,7 @@ footer {
     line-height: 130%;
 }
 
-.footer-left-part{
+.footer-left-part {
     margin-right: 24rem;
 }
 
@@ -501,9 +505,150 @@ a {
     font-size: 1.2rem;
 }
 
-.copyright{
+.copyright {
     margin-top: 50px;
     color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding-bottom: 50px;
+}
+
+/* media query for small (mobile) device */
+@media screen and (max-width: 576px) {
+
+    .nav-bar {
+        max-width: 100%;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: contents;
+    }
+
+    .hero,
+    .hero-content,
+    .hero-content-title,
+    .hero-content-text {
+        max-width: 100%;
+        margin: 0;
+        padding: 0 10px;
+        flex-direction: column;
+    }
+
+    .hero-content-title,
+    .hero-content-text {
+        margin-bottom: 15px;
+    }
+
+    .hero-content-title {
+        font-size: 3rem;
+    }
+
+    .hero-image {
+        max-width: 100%;
+    }
+
+    .upper-badge {
+        margin-top: 5rem;
+        margin-left: -10rem;
+        padding: 15px;
+    }
+
+    .lower-badge {
+        margin-right: -3rem;
+        margin-top: 20rem;
+    }
+
+    .highlighted-number {
+        font-size: 1.3rem;
+    }
+
+    .shared-buttons {
+        font-size: 1rem;
+        padding: 10px 25px;
+    }
+
+    .habits-container {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    .run-extra-mile {
+        max-width: 85%;
+        margin: 0 auto;
+        padding: 12px;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .run-extra-mile-image img {
+        max-width: 100%;
+    }
+
+    .exercise {
+        max-width: 100%;
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    .exercise-image-container img {
+        max-height: 100px;
+    }
+
+    .bmi {
+        max-width: 100%;
+        margin: 20px auto;
+        padding-left: 30px;
+    }
+
+    .bmi-calculator-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .bmi-chart,
+    .bmi-calculator {
+        width: 90%;
+        margin: 0 auto;
+
+    }
+
+    .bmi-calculator .inputs {
+        justify-content: center;
+    }
+
+    .meet-our-team {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .team-image-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .team-image-container img {
+        width: 330px;
+        height: 250px;
+    }
+
+    .footer-container {
+        padding: 20px 0;
+        width: 80%;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .footer-left-part,
+    .footer-middle-part,
+    .footer-right-part {
+        width: 100%;
+    }
+
+    .copyright {
+        margin: 30px 0;
+    }
 }
